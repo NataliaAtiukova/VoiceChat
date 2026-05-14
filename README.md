@@ -1,53 +1,42 @@
 # VoiceChat
 
-Мобильное приложение для обмена сообщениями с функциями голосового чата, разработанное на Flutter.
+Flutter chat application with authentication and messaging features.
 
-## Функциональность
+## Features
 
-- Аутентификация пользователей (регистрация, вход)
-- Поиск пользователей
-- Управление друзьями (отправка запросов, принятие/отклонение запросов)
-- Личные и групповые чаты
-- Обмен текстовыми сообщениями
-- Индикация прочтения сообщений
-- Счетчики непрочитанных сообщений
+- User auth (sign up / sign in)
+- User search
+- Friends and requests flow
+- Private/group chats
+- Message delivery/read indicators
 
-## Технологии
+## Stack
 
-- Flutter для кроссплатформенной разработки
-- Firebase Authentication для аутентификации
-- Cloud Firestore для хранения данных
-- Firebase Storage для хранения медиафайлов
+- Flutter
+- Firebase Authentication
+- Cloud Firestore
+- Firebase Storage
 
-## Установка
+## Run locally
 
-1. Клонировать репозиторий:
-```
-git clone https://github.com/NatalyaAtyukova/VoiceChat.git
-```
-
-2. Перейти в директорию проекта:
-```
+1. Clone the repository:
+```bash
+git clone https://github.com/NataliaAtiukova/VoiceChat.git
 cd VoiceChat
 ```
-
-3. Установить зависимости:
-```
+2. Install dependencies:
+```bash
 flutter pub get
 ```
-
-4. Запустить приложение:
-```
+3. Configure Firebase for your environment.
+4. Run:
+```bash
 flutter run
 ```
 
-## Структура проекта
+## Structure
 
-- `lib/models/` - Модели данных
-- `lib/screens/` - Экраны приложения
-- `lib/services/` - Сервисы для работы с Firebase
-- `lib/widgets/` - Многоразовые виджеты
-
-## Автор
-
-Наталья Атюкова
+- `lib/models/`
+- `lib/screens/`
+- `lib/services/`
+- `lib/widgets/`
